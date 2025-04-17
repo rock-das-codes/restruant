@@ -1,4 +1,6 @@
-import {ArrowRight, Check, ChevronsUpDown, Circle, Copy, Edit, ExternalLink, File, HelpCircle, Home, Loader2, Mail, MessageSquare, Moon, Plus, PlusCircle, Search, Server, Settings, Share2, Shield, Sun, Trash, User, X, Workflow} from 'lucide-react';
+
+import {Accessibility as AccessibleIcon, ArrowRight, Check, ChevronsUpDown, Circle, Copy, Edit, ExternalLink, File, HelpCircle, Home, Loader2, Mail, MessageSquare, Moon, Package, Parking as ParkingIcon, Phone, Plus, PlusCircle, Restroom, Search, Seating, Server, Settings, Share2, Shield, Sun, Trash, Truck, User, Utensils, X, Workflow, Bar, Baby, Chair} from 'lucide-react';
+import { Beer, Bottle, Carrot, Cocktail, Coffee, CreditCard, DebitCard, Hamburger, Heart, Lightning, Map, Moon as MoonIcon, Nfc, Pizza, Smile, Sun as SunIcon, Trophy, Users as UsersIcon, Wine } from 'lucide-react';
 
 const Icons = {
   arrowRight: ArrowRight,
@@ -28,6 +30,38 @@ const Icons = {
   spinner: Loader2,
   trash: Trash,
   user: User,
+  accessible: AccessibleIcon,
+  truck: Truck,
+  package: Package,
+  utensils: Utensils,
+  lightning: Lightning,
+  beer: Beer,
+  cocktail: Cocktail,
+  trophy: Trophy,
+  sun: SunIcon,
+  moon: MoonIcon,
+  users: UsersIcon,
+  heart: Heart,
+  wine: Wine,
+  coffee: Coffee,
+  pizza: Pizza,
+  hamburger: Hamburger,
+  smile: Smile,
+  bottle: Bottle,
+  carrot: Carrot,
+  creditCard: CreditCard,
+  debitCard: DebitCard,
+  nfc: Nfc,
+  baby: Baby,
+  chair: Chair,
+  parking: ParkingIcon,
+  seating: Seating,
+  restroom: Restroom,
+  bar: Bar,
+  map: Map,
+  phone: Phone
 };
 
 export {Icons};
+
+    
