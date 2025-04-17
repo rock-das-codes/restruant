@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Baby, Chair } from 'lucide-react';
+import { Baby, Armchair as Chair } from 'lucide-react';
 
 export const Children: React.FC = () => {
   return (

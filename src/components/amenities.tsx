@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Restroom } from 'lucide-react';
+import {  Bath as Restroom } from 'lucide-react';
 import { Icons } from '@/components/icons';
 
 export const Amenities: React.FC = () => {

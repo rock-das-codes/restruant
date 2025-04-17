@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CreditCard, DebitCard, Nfc } from 'lucide-react';
+import { CreditCard, IdCard as DebitCard, Nfc } from 'lucide-react';
 
 export const Payments: React.FC = () => {
   return (

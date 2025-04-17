@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Parking as ParkingIcon, StreetView } from 'lucide-react';
+import { CircleParking as ParkingIcon, TrafficCone } from 'lucide-react';
 
 export const Parking: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ export const Parking: React.FC = () => {
             Free parking lot
           </li>
           <li className="mb-2">
-            <StreetView className="mr-2 inline-block h-4 w-4" />
+            <TrafficCone className="mr-2 inline-block h-4 w-4" />
             Free street parking
           </li>
           <li className="mb-2">

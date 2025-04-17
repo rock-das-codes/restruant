@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sun, Moon, Cake, Seating } from 'lucide-react';
+import { Sun, Moon, Cake, Sofa as Seating } from 'lucide-react';
 
 export const DiningOptions: React.FC = () => {
   return (

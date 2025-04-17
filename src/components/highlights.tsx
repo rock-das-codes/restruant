@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lightning, Beer, Cocktail, Trophy } from 'lucide-react';
+import { Zap as Lightning, Beer, Martini as Cocktail, Trophy } from 'lucide-react';
 
 export const Highlights: React.FC = () => {
   return (

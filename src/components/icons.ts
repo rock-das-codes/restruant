@@ -1,6 +1,6 @@
 
-import {Accessibility as AccessibleIcon, ArrowRight, Check, ChevronsUpDown, Circle, Copy, Edit, ExternalLink, File, HelpCircle, Home, Loader2, Mail, MessageSquare, Moon, Package, Parking as ParkingIcon, Phone, Plus, PlusCircle, Restroom, Search, Seating, Server, Settings, Share2, Shield, Sun, Trash, Truck, User, Utensils, X, Workflow, Bar, Baby, Chair} from 'lucide-react';
-import { Beer, Bottle, Carrot, Cocktail, Coffee, CreditCard, DebitCard, Hamburger, Heart, Lightning, Map, Moon as MoonIcon, Nfc, Pizza, Smile, Sun as SunIcon, Trophy, Users as UsersIcon, Wine } from 'lucide-react';
+import {Accessibility as AccessibleIcon, ArrowRight, Check, ChevronsUpDown, Circle, Copy, Edit, ExternalLink, File, HelpCircle, Home, Loader2, Mail, MessageSquare, Moon, Package, CircleParkingIcon as ParkingIcon, Phone, Plus, PlusCircle, Bath, Search, Armchair, Server, Settings, Share2, Shield, Sun, Trash, Truck, User, Utensils, X, Workflow, Hotel, Baby, Sofa} from 'lucide-react';
+import { Beer, Milk, Carrot, Martini, Coffee, CreditCard, IdCard, Menu, Heart, Zap, Map, Moon as MoonIcon, Nfc, Pizza, Smile, Sun as SunIcon, Trophy, Users as UsersIcon, Wine } from 'lucide-react';
 
 const Icons = {
   arrowRight: ArrowRight,
@@ -34,9 +34,9 @@ const Icons = {
   truck: Truck,
   package: Package,
   utensils: Utensils,
-  lightning: Lightning,
+  lightning: Zap,
   beer: Beer,
-  cocktail: Cocktail,
+  cocktail: Martini,
   trophy: Trophy,
   sun: SunIcon,
   moon: MoonIcon,
@@ -45,19 +45,19 @@ const Icons = {
   wine: Wine,
   coffee: Coffee,
   pizza: Pizza,
-  hamburger: Hamburger,
+  hamburger: Menu,
   smile: Smile,
-  bottle: Bottle,
+  bottle: Milk,
   carrot: Carrot,
   creditCard: CreditCard,
-  debitCard: DebitCard,
+  debitCard: IdCard,
   nfc: Nfc,
   baby: Baby,
-  chair: Chair,
+  chair: Sofa,
   parking: ParkingIcon,
-  seating: Seating,
-  restroom: Restroom,
-  bar: Bar,
+  seating: Armchair,
+  restroom: Bath,
+  bar: Hotel,
   map: Map,
   phone: Phone
 };

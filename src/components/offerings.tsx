@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Wine, Beer, Cocktail, Coffee, Pizza, Hamburger, Smile, Bottle, Carrot } from 'lucide-react';
+import { Wine, Beer, Martini, Coffee, Pizza, Menu, Smile, Milk, Carrot, Zap } from 'lucide-react';
 
 export const Offerings: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ export const Offerings: React.FC = () => {
             Beer
           </li>
           <li className="mb-2">
-            <Cocktail className="mr-2 inline-block h-4 w-4" />
+            <Martini className="mr-2 inline-block h-4 w-4" />
             Cocktails
           </li>
           <li className="mb-2">
@@ -27,7 +27,7 @@ export const Offerings: React.FC = () => {
             Coffee
           </li>
           <li className="mb-2">
-            <Hamburger className="mr-2 inline-block h-4 w-4" />
+            <Menu className="mr-2 inline-block h-4 w-4" />
             Comfort food
           </li>
           <li className="mb-2">
@@ -43,7 +43,7 @@ export const Offerings: React.FC = () => {
             Happy-hour food
           </li>
           <li className="mb-2">
-            <Lightning className="mr-2 inline-block h-4 w-4" />
+            <Zap className="mr-2 inline-block h-4 w-4" />
             Quick bite
           </li>
           <li className="mb-2">
@@ -51,7 +51,7 @@ export const Offerings: React.FC = () => {
             Small plates
           </li>
           <li className="mb-2">
-            <Bottle className="mr-2 inline-block h-4 w-4" />
+            <Milk className="mr-2 inline-block h-4 w-4" />
             Spirits
           </li>
           <li className="mb-2">
