@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "name": "SP#1 SIZZLING FAJITAS",
+      "price": "$13.00",
+      "image": "./images/fi1.avif",
+      "description": "Tender grilled beef or chicken with sautéed onions and bell peppers."
+    },
+    {
+      "name": "SP#2 FAJITA SALAD",
+      "price": "$12.00",
+      "image": "./images/fi2.avif",
+      "description": "Fresh salad topped with your choice of grilled fajita meat."
+    },
+    {
+      "name": "SP#3 CHIMICHANGA CHICKEN",
+      "price": "$9.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Deep-fried burrito filled with chicken, beans, and cheese."
+    },
+    {
+      "name": "SP#4 TACO SALAD",
+      "price": "$9.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Crispy tortilla bowl filled with lettuce, tomatoes, cheese, and your choice of meat."
+    },
+    {
+      "name": "SP#5 ENCHILADAS VERDES",
+      "price": "$9.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Corn tortillas filled with cheese and topped with green salsa and sour cream."
+    },
+    {
+      "name": "SP#6 SPEEDY GONZALEZ",
+      "price": "$8.99",
+      "image": "/images/placeholder.jpg",
+      "description": "One taco, one enchilada, and choice of rice or beans."
+    },
+    {
+      "name": "SP#7 AUTHENTIC STREET TACOS",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Three street-style tacos with onions, cilantro, and lime."
+    },
+    {
+      "name": "SP#8 GRANDE QUESADILLA",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Large flour tortilla filled with cheese and your choice of meat."
+    },
+    {
+      "name": "SP#9 MEXICAN COMBO",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "One enchilada, one taco, and one chalupa with rice and beans."
+    },
+    {
+      "name": "SP#10 CARNITAS PLATE",
+      "price": "$9.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Slow-cooked pork served with rice, beans, and tortillas."
+    },
+    {
+      "name": "SP#11 CHILE RELLENO",
+      "price": "$11.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Poblano pepper stuffed with cheese, battered and fried to perfection."
+    },
+    {
+      "name": "SP#12 FAJITA TACO",
+      "price": "$12.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Two tacos with grilled fajita meat, onions, and bell peppers."
+    },
+    {
+      "name": "SP#13 HALF ROY SPECIAL",
+      "price": "$13.75",
+      "image": "/images/placeholder.jpg",
+      "description": "Our chef's special combination plate with a variety of favorites."
+    },
+    {
+      "name": "SP#14 NACHOS SUPREME",
+      "price": "$9.50",
+      "image": "/images/placeholder.jpg",
+      "description": "Loaded nachos with beef, chicken, beans, cheese, lettuce, and tomatoes."
+    },
+    {
+      "name": "SP#15 BURRITO SUPREME",
+      "price": "$11.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Large burrito filled with meat, beans, lettuce, sour cream, and cheese."
+    },
+    {
+      "name": "SP#16 HOT AND SPICY BURRITO",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Spicy burrito with jalapeños, hot sauce, and your choice of meat."
+    },
+    {
+      "name": "SP#17 CHICKEN FINGERS",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Crispy chicken tenders served with fries and dipping sauce."
+    },
+    {
+      "name": "SP#18 TAMPICO PLATE",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Grilled chicken breast topped with sautéed vegetables and cheese."
+    },
+    {
+      "name": "SP#19 HUEVOS RANCHEROS",
+      "price": "$9.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Fried eggs topped with ranchero sauce, served with rice and beans."
+    },
+    {
+      "name": "SP#20 FISH TACOS",
+      "price": "$10.99",
+      "image": "/images/placeholder.jpg",
+      "description": "Three tacos with grilled or fried fish, cabbage, and special sauce."
+    }
+  ]
+}
+  

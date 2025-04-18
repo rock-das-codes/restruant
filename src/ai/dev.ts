@@ -1,0 +1,1 @@
+import '@/ai/flows/dish-recommendation.ts';
