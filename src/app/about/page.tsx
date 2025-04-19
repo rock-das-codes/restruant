@@ -1,7 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-
+import pic from "@/../public/images/470174444_584367617577141_7573296372560812904_n.jpg"
+import men from "@/../public/images/man1.jpg"
+import wommen1 from "@/../public/images/women1.jpg"
+import women2 from "@/../public/images/women2.jpg"
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-white">
@@ -34,7 +37,7 @@ const AboutPage = () => {
             </div>
             <div className="order-1 md:order-2 relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image 
-                src="/images/restaurant-interior.jpg" 
+                src={pic}
                 alt="La Gran Fiesta Restaurant Interior" 
                 fill
                 className="object-cover"
@@ -93,10 +96,10 @@ const AboutPage = () => {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/images/chef.jpg"
+                  src={men}
                   alt="Executive Chef"
-                  fill
-                  className="object-cover"
+                  
+                  className=""
                 />
               </div>
               <h3 className="text-xl font-bold">Miguel Hernandez</h3>
@@ -106,10 +109,10 @@ const AboutPage = () => {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/images/owner.jpg"
+                  src={wommen1}
                   alt="Owner"
-                  fill
-                  className="object-cover"
+                
+                  className=""
                 />
               </div>
               <h3 className="text-xl font-bold">Maria Hernandez</h3>
@@ -119,10 +122,10 @@ const AboutPage = () => {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/images/manager.jpg"
+                  src={women2}
                   alt="Manager"
-                  fill
-                  className="object-cover"
+                  
+                  className=""
                 />
               </div>
               <h3 className="text-xl font-bold">Carlos Hernandez</h3>

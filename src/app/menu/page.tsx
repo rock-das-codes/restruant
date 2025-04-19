@@ -30,6 +30,8 @@ export default function MenuPage() {
       id: parseInt(item.name.replace('SP#', '')) || Math.floor(Math.random() * 1000),
       name: item.name,
       price: item.price,
+      image: item.image,
+      description: item.description,
     });
   };
   
@@ -44,7 +46,13 @@ export default function MenuPage() {
               <div className="relative h-[200px] bg-gray-200">
                 {/* Using a placeholder image since menu.json has invalid image URLs */}
                 <div className="flex items-center justify-center h-full">
-                  <span className="text-3xl text-gray-400">Food Image</span>
+                 <Image
+                    src={item.image}
+                    alt={item.name}
+                    width={200}
+                    height={200}
+                    className="object-cover w-full h-full"
+                  />
                 </div>
               </div>
               <div className="p-6">

@@ -1,3 +1,4 @@
+// filepath: /restruant/restruant/src/app/page.tsx
 'use client';
 
 import React from 'react';
@@ -15,7 +16,6 @@ import image6 from "./../../public/images/image6.jpg"
 import image7 from "./../../public/images/image7.jpg"
 import image4 from "./../../public/images/472433363_17958685028850107_6407977825743000131_n.jpg"
 
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -27,10 +27,10 @@ export default function Home() {
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">Authentic Mexican Cuisine With A Modern Twist</h1>
             <p className="text-gray-200 mb-8">Experience the vibrant flavors of Mexico at La Gran Fiesta. Our family recipes have been perfected over generations to bring you the most authentic and delicious Mexican dishes.</p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link href="/menu" className="bg-yellow-500 hover:bg-yellow-600 text-[#8B0000] font-bold px-6 py-3 rounded">Order Online</Link>
-              <Link href={"/booking"} className="border-2 border-white hover:bg-white hover:text-[#8B0000] text-white font-bold px-6 py-3 rounded">
+              <Button className="bg-yellow-500 hover:bg-yellow-600 text-[#8B0000] font-bold px-6 py-3 rounded">Order Online</Button>
+              <Button variant="outline" className="border-2 border-white hover:bg-white hover:text-[#8B0000] text-white font-bold px-6 py-3 rounded">
                 Book A Table
-              </Link>
+              </Button>
             </div>
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="text-[#8B0000] font-medium mb-2">ABOUT US</div>
             <h2 className="text-3xl font-bold mb-6">Experience Authentic Mexican Flavors</h2>
             <p className="text-gray-700 mb-6">At La Gran Fiesta, we bring the vibrant flavors of Mexico to your table. Our chefs use traditional recipes and the freshest ingredients to create an unforgettable dining experience. Whether you're dining in or ordering online, expect the highest quality Mexican cuisine.</p>
-            <Link href={"/about"} className="bg-yellow-500 hover:bg-yellow-600 text-[#8B0000] font-bold px-6 py-3 rounded">Learn More</Link>
+            <Button className="bg-yellow-500 hover:bg-yellow-600 text-[#8B0000] font-bold px-6 py-3 rounded">Learn More</Button>
           </div>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function Home() {
           <p className="text-gray-200 mb-8 max-w-2xl mx-auto">Join us for a memorable dining experience or order your favorite Mexican dishes for delivery or takeout.</p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Link className="bg-yellow-500 hover:bg-yellow-600 text-[#8B0000] font-bold px-8 py-3 rounded" href={'/menu'}>Order Online</Link>
-            <Link href={"/booking"}  className="border-2 border-white  text-white  font-bold px-8 py-3 rounded">
+            <Link className="border-2 border-white text-white font-bold px-8 py-3 rounded" href="/booking">
               Book A Table
             </Link>
           </div>

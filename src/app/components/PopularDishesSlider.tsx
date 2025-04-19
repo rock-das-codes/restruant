@@ -35,6 +35,8 @@ export default function PopularDishesSlider() {
       id: parseInt(item.name.replace('SP#', '')) || Math.floor(Math.random() * 1000),
       name: item.name,
       price: item.price,
+      image: item.image,
+      description: item.description,
     });
   };
   
@@ -96,8 +98,8 @@ export default function PopularDishesSlider() {
             <div key={index} className="w-full md:w-1/3 px-4">
               <Card className="bg-white rounded-xl overflow-hidden shadow-md h-full">
                 <div className="relative h-[200px] bg-gray-200">
-                  <div className="flex items-center justify-center h-full">
-                    <span className="text-3xl text-gray-400">Food Image</span>
+                  <div className="flex items-center justify-center overflow-hidden h-full">
+                    <Image layout='responsive' alt={dish.description} width={500} height={500}  src={dish.image}/>
                   </div>
                 </div>
                 <div className="p-6">

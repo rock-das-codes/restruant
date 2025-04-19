@@ -31,7 +31,7 @@ const deliveryServices = [
 
 export default function OrderPage() {
   const { cart, removeFromCart, updateQuantity, totalItems, totalPrice } = useCart();
-
+ console.log(cart);
   // If cart is empty, show different UI
   if (cart.length === 0) {
     return (
@@ -62,7 +62,13 @@ export default function OrderPage() {
               {cart.map((item) => (
                 <div key={item.id} className="flex items-center py-4 border-b border-gray-200">
                   <div className="w-24 h-24 bg-gray-200 rounded-md flex items-center justify-center">
-                    <span className="text-gray-400">Food</span>
+                    <Image 
+                      src={item.image}
+                      alt={item.name} 
+                      width={100} 
+                      height={100} 
+                      className="object-cover w-full h-full rounded-md"
+                    />
                   </div>
                   
                   <div className="flex-1 ml-4">

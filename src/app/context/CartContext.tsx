@@ -7,6 +7,8 @@ export type CartItem = {
   name: string;
   price: string;
   quantity: number;
+  image: string; // Optional image property
+  description?: string; // Optional description property
 };
 
 type CartContextType = {
